@@ -130,8 +130,8 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 60px;
-    height: 260px;
+    gap: 50px;
+    height: 270px;
     box-sizing: border-box;
 }
 
@@ -139,13 +139,13 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 130px;
+    width: 140px;
     gap: 10px;
 }
 
 .illustration {
-    height: 130px;
-    width: 130px;
+    height: 140px;
+    width: 140px;
     border-style: solid;
     border-color: #3882f6;
     border-radius: 14px;
@@ -155,5 +155,35 @@ button {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    color: #56555A;
+    color: #1f2937
+}
+
+/*quote section*/
+.quote-section {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 90px;
+    justify-content: center;
+}
+
+.quote-reference {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+}
+
+.reference {
+    display: flex;
+    color: #1f2937;
+    font-size: 25px;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: 800;
 }
