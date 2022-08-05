@@ -123,10 +123,16 @@ button {
 
 .second-section {
     display: flex;
-    flex-direction: column;
-    padding: 30px;
-    gap: 50px;
+    padding: 50px;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-items {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 .section-header {
     font-size: 36px;
