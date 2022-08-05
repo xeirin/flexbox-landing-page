@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 .header {
@@ -15,7 +16,6 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
 }
 
 .logo {
@@ -47,7 +47,10 @@ a {
     flex-direction: row;
     height: 400px;
     margin-left: 150px;
+    margin-right: 150px;
     gap: 100px;
+    align-items: center;
+    justify-content: center;
 
 }
 .left {
@@ -77,7 +80,6 @@ div.button button {
     display: flex;
     text-align: center;
     flex-shrink: 0;
-    
 }
 
 button {
@@ -97,7 +99,6 @@ button {
     align-items: center;
     justify-content: center;
     padding-right: auto;
-    
 }
 
 .img {
@@ -110,7 +111,12 @@ button {
     justify-content: center;
     margin: 0 auto;
     color: white;
+}
 
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 /*2nd section*/
@@ -120,6 +126,7 @@ button {
     flex-direction: column;
     padding: 30px;
     gap: 50px;
+    flex-grow: 1;
 }
 .section-header {
     font-size: 36px;
@@ -167,12 +174,14 @@ button {
     background-color: #E5E7EB;
     padding: 90px;
     justify-content: center;
+    flex-grow: 1;
 }
 
 .quote-reference {
     display: flex;
     flex-direction: column;
     width: 700px;
+    justify-content: center;
 }
 
 .quote {
@@ -197,6 +206,9 @@ button {
     justify-content: center;
     padding-top: 90px;
     padding-bottom: 90px;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 
 .cta {
@@ -249,9 +261,5 @@ div.button-cta button {
     justify-content: center;
     padding: 40px;
     margin-top: auto;
-}
-
-.cp {
-    display: flex;
     color: #E5E7EB;
 }
