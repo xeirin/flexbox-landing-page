@@ -69,6 +69,10 @@ a {
     color: #e5e7eb;
 }
 
+div.button button {
+    font-size: inherit;
+}
+
 .button {
     display: flex;
     text-align: center;
@@ -85,7 +89,6 @@ button {
     border-radius: 6px;
     font-weight: bold;
     width: 110px
-    
 }
 
 
@@ -182,8 +185,58 @@ button {
 .reference {
     display: flex;
     color: #1f2937;
-    font-size: 25px;
+    font-size: 24px;
     flex-direction: row;
     justify-content: flex-end;
     font-weight: 800;
+}
+
+/*cta section*/
+.cta-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.cta {
+    display: flex;
+    background-color: #3882f6;
+    height: 130px;
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 7px;
+    
+}
+
+.left-cta {
+    display: flex;
+    flex-direction: column;
+    padding-left: auto;
+    
+}
+
+.header-cta {
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+}
+
+.subtext-cta {
+    color: #e5e7eb;
+}
+
+.button-cta {
+    border-style: solid;
+    border-color: white;
+    border-radius: 7px;
+    border-width: 2px;
+    
+}
+
+div.button-cta button {
+    font-size: inherit;
 }
