@@ -240,3 +240,18 @@ button {
 div.button-cta button {
     font-size: inherit;
 }
+
+ /*footer*/
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin-top: auto;
+}
+
+.cp {
+    display: flex;
+    color: #E5E7EB;
+}
