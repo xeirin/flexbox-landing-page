@@ -8,7 +8,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    width: 100%;
     padding: 16px;
 }
 
@@ -100,8 +99,8 @@ button {
 
 .img {
     display: flex;
-    width: 450px;
-    height: 200px;
+    width: 470px;
+    height: 220px;
     background-color: #74757a;
     display: flex;
     align-items: center;
@@ -110,3 +109,5 @@ button {
     color: white;
 
 }
+
+/*2nd section*/
